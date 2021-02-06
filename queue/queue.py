@@ -21,7 +21,11 @@ class Queue:
         queue = 'Queue['
         auxiliary = self.head
         while True:
-            queue += str(auxiliary.data)
+            queue += (
+                f"'{auxiliary.data}'"
+                if type(auxiliary.data) == str
+                else f'{auxiliary.data}'
+            )
             if auxiliary == self.tail:
                 queue += ']'
                 break

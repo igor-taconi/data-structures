@@ -20,7 +20,11 @@ class Stack:
         auxiliary = self.top
         stack = 'Stack['
         while True:
-            stack += str(auxiliary.data)
+            stack += (
+                f"'{auxiliary.data}'"
+                if type(auxiliary.data) == str
+                else f'{auxiliary.data}'
+            )
             if not auxiliary.preceding:
                 stack += ']'
                 break
