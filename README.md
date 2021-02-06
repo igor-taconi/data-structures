@@ -9,9 +9,10 @@ Há diversas EDs e cada uma pode encontram muitas aplicações em desenvolviment
 -   Lista Encadeada
 -   Pilha
 -   Fila
+-   Lista Duplamente Encadeada
 
 ### Lista Encadeada
-A lista é uma estrutura onde seus elementos são arrumados numa ordem linear, onde cada elemento tem um sucessor (exceto o último).
+A lista encadeada é uma estrutura onde seus elementos são arrumados numa ordem linear, onde cada elemento tem um próximo (exceto o último). Ela anda somente em um sentido, não consegue retornar.
 #### Operações
 -   Adicionar um item.
 -   Remover um item passando o índice.
@@ -36,6 +37,20 @@ A fila é uma estrutura onde só é possível ter acesso ao primeiro elemento, p
 -   Mostrar o número de elementos na estrutura
 -   Ver o primeiro elemento
 -   Verificar se há um determinado elemento na fila
+
+### Lista Duplamente Encadeada
+A lista duplamente encadeada é uma estrutura onde seus elementos são arrumados numa ordem linear, onde cada elemento tem um antecessor (exceto o primeiro) e um sucessor (exceto o último). Você tem as referencias tanto indo como voltando, ao percorrer uma lista você pode avançar e retornar pelos objetos.
+#### Operações
+-   Adicionar um item
+-   Remover um item passando por índice
+-   Acessar o elemento passando por índice
+-   Iterar sobre os elementos
+-   Buscar um certo elemento na lista e retornar seu índice
+-   Retornar o número de elementos na estrutura
+-   Limpar a lista
+-   Copiar a lista
+-   Reverter a ordem dos elementos
+-   Ordenar por ordem crescente ou decrescente, sendo numérico ou alfabético
 
 ## Referências
 [IME](https://www.ime.usp.br/~pf/estruturas-de-dados/)  
