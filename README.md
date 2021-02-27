@@ -3,7 +3,7 @@ Este repositório foi criado como registro dos meus estudo sobre estruturas de d
 
 ## O que são estruturas de dados (ED)?
 Uma Estrutura de dados representa uma organização de dados na memória de um computador ou equivalente, permitindo que esses dados possam ser utilizados de forma eficiente.  
-Há diversas EDs e cada uma pode encontram muitas aplicações em desenvolvimento de sistemas. A velocidade do seu programa, geralmente, está na forma em que seus dados são organizados durante o processamento. Com as EDs adequadas podemos solucionar problemas extremamente complexos de forma simples e eficiente.
+Há diversas EDs e cada uma pode encontrar muitas aplicações em desenvolvimento de sistemas. A velocidade do seu programa, geralmente, está na forma em que seus dados são organizados durante o processamento. Com as EDs adequadas podemos solucionar problemas extremamente complexos de forma simples e eficiente.
 
 ## Exemplos de Estruturas de Dados
 -   Lista Encadeada
