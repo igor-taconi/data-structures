@@ -39,7 +39,7 @@ A fila é uma estrutura onde só é possível ter acesso ao primeiro elemento, p
 -   Verificar se há um determinado elemento na fila
 
 ### Lista Duplamente Encadeada
-A lista duplamente encadeada é uma estrutura onde seus elementos são arrumados numa ordem linear, onde cada elemento tem um antecessor (exceto o primeiro) e um sucessor (exceto o último). Você tem as referencias tanto indo como voltando, ao percorrer uma lista você pode avançar e retornar pelos objetos.
+A lista duplamente encadeada é uma estrutura onde seus elementos são arrumados numa ordem linear, onde cada elemento tem um antecessor (exceto o primeiro) e um sucessor (exceto o último). Você tem as referências tanto indo como voltando, ao percorrer uma lista você pode avançar e retornar pelos objetos.
 #### Operações
 -   Adicionar um item
 -   Remover um item passando por índice
